@@ -7,3 +7,5 @@ numpy
 tflite_runtime
 opencv-python
 pandas
+mathutils
+bpy
