@@ -8,13 +8,13 @@ BATCH_SIZE = 1
 
 
 module_path = os.path.abspath(os.path.dirname(__file__))
-MODEL_PATH = os.path.join(module_path, "model/HMR.tflite")
+MODEL_PATH = os.path.join("./", "models/HMR.tflite")
 THETA_PATH = os.path.join(module_path, "model/initial_theta.npy")
 
 class HMR:
     
     def __init__(self):        
-
+        print(f"MODEL_PATH={MODEL_PATH}")
         self.interpreter = tflite.Interpreter(model_path=MODEL_PATH)
         self.interpreter.allocate_tensors()
         

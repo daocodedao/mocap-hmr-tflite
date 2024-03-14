@@ -17,8 +17,8 @@ from .batch_lbs import batch_rodrigues, batch_global_rigid_transformation
 import os
 
 
-module_path = os.path.abspath(os.path.dirname(__file__))
-PKL_PATH = os.path.join(module_path, "smpl_model.pkl")
+# module_path = os.path.abspath(os.path.dirname(__file__))
+PKL_PATH = os.path.join("./models", "smpl_model.pkl")
 
 
 # There are chumpy variables so convert them to numpy.

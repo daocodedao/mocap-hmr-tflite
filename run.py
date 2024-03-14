@@ -1,7 +1,7 @@
 import sys
 import cv2
-from tkinter import filedialog, simpledialog
-from tkinter import *
+# from tkinter import filedialog, simpledialog
+# from tkinter import *
 
 from np_smpl.batch_smpl import SMPL
 from person_detector import PersonDetector
@@ -9,10 +9,10 @@ from hmr import HMR
 from bvh_exporter import BVHExporter
 from crop_tool import crop_and_resize
 
-root = Tk()
-root.withdraw()
-video_path = filedialog.askopenfilename()
-
+# root = Tk()
+# root.withdraw()
+# video_path = filedialog.askopenfilename()
+video_path = "./assets/dance_demo.mp4"
 
 person_det = PersonDetector()
 hmr_detector = HMR()    

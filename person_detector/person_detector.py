@@ -11,8 +11,8 @@ AnchorsConfig = [[8,2], [16,6]]
 regressor_kps = 4
 
 
-module_path = os.path.abspath(os.path.dirname(__file__))
-MODEL_PATH = os.path.join(module_path, "model/lite_pose_detection.tflite")
+# module_path = os.path.abspath(os.path.dirname(__file__))
+MODEL_PATH = os.path.join("./", "models/lite_pose_detection.tflite")
 
 
 

@@ -1,0 +1,9 @@
+
+--extra-index-url https://google-coral.github.io/py-repo/ 
+pytz
+python-dateutil
+scipy
+numpy
+tflite_runtime
+opencv-python
+pandas

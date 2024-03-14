@@ -65,7 +65,8 @@ class BVHExporter:
         (stdout, stderr) = proc.communicate()
         
         if proc.returncode != 0:
-            ctypes.windll.user32.MessageBoxW(0,  u"Blender not found, install Blender and add to your PATH first.",u"Error", 0)
+            print("error")
+            # ctypes.windll.user32.MessageBoxW(0,  u"Blender not found, install Blender and add to your PATH first.",u"Error", 0)
         else:
             print("[INFO] Success.")
         
